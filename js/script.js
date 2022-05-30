@@ -106,8 +106,31 @@ window.addEventListener("scroll",function(){
     });
 }
 
-const mobileBtns = document.querySelector(".mobile_location");
+const mobileBtns = document.querySelectorAll(".mobile_location");
 
-mobileBtns.addEventListener("click",function(){
-    let mobile = window.open("http://hyeonzlu.dothome.co.kr/cjenm","cjenm","width=500,height=500");
-});
+let location_info = [{
+  address:"http://hyeonzlu.dothome.co.kr/cjenm",
+  name :"cjenm",
+  size:"width=500,height=900"
+},
+{
+  address:"http://hyeonzlu.dothome.co.kr/abib",
+  name :"name",
+  size:"width=500,height=900"
+},
+{
+  address:"http://hyeonzlu.dothome.co.kr/zara",
+  name :"zara",
+  size:"width=500,height=900"
+}
+
+];
+
+
+for (let i=0; i < mobileBtns.length; i++){
+
+  mobileBtns[i].addEventListener("click",function(){
+    let mobile = window.open(location_info[i].address,location_info[i].name,location_info[i].size);
+  });
+}
+

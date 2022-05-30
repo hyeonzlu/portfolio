@@ -34,7 +34,7 @@ font-family: 'Nanum Pen Script', cursive;
                                         transform:translateX(-50%); top:170px; line-height:80px;
                                         font-size:40px; font-family: 'Architects Daughter', cursive;} 
 .main1 .circle .text_wrap {display:flex;   width: 500px;  }
-.main1 .circle .text_wrap p {font-size: 220px;  position:absolute;   animation-duration: 3s; color:#3c3f93 ;
+.main1 .circle .text_wrap p {font-size: 200px;  position:absolute;   animation-duration: 3s; color:#3c3f93 ;
                                             animation-timing-function: linear; animation-iteration-count: infinite; 
                                             font-family: 'Titan One', cursive;}
 
@@ -242,10 +242,13 @@ font-family: 'Nanum Pen Script', cursive;
 
 .main3 .tab .tab_conts .cont_wrap .cont_box .bot_box span {color:#777; font-size: 15px; line-height:25px; }
 
-.main3 .tab .tab_conts .cont_wrap .cont_box .bot_box a {display: block; margin: 0 auto; margin-top:20px; width:150px; height: 40px;
+.main3 .tab .tab_conts .cont_wrap .cont_box .bot_box .location_box {display:flex; margin: 0 auto; width: 330px;}
+.main3 .tab .tab_conts .cont_wrap .cont_box .bot_box a ,  
+.main3 .tab .tab_conts .cont_wrap .cont_box .bot_box .mobile_location  {display: block; margin: 0 auto; margin-top:30px; width:130px; height: 40px;
                                                                                           line-height:40px; font-size:17px; border:1px solid #525252; color:#525252;
                                                                                          transition: all 0.5s;}
 .main3 .tab .tab_conts .cont_wrap .cont_box .bot_box a:hover {background:#F2AF5C; color:#f2eee4; border:1px solid #F2AF5C;}
+.main3 .tab .tab_conts .cont_wrap .cont_box .bot_box .mobile_location:hover {background:#F2AF5C; color:#f2eee4; border:1px solid #F2AF5C;}
 
 /*main4*/ 
 .main4 {width:100%;  display:flex; justify-content:center;}
