@@ -245,6 +245,7 @@ font-family: 'Nanum Pen Script', cursive;
 .main3 .tab .tab_conts .cont_wrap .cont_box .bot_box .location_box {display:flex; margin: 0 auto; width: 330px;}
 .main3 .tab .tab_conts .cont_wrap .cont_box .bot_box a ,  
 .main3 .tab .tab_conts .cont_wrap .cont_box .bot_box .mobile_location  {display: block; margin: 0 auto; margin-top:30px; width:130px; height: 40px;
+                                                                        background-color: transparent;
                                                                                           line-height:40px; font-size:17px; border:1px solid #525252; color:#525252;
                                                                                          transition: all 0.5s;}
 .main3 .tab .tab_conts .cont_wrap .cont_box .bot_box a:hover {background:#F2AF5C; color:#f2eee4; border:1px solid #F2AF5C;}
