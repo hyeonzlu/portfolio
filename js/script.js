@@ -109,5 +109,5 @@ window.addEventListener("scroll",function(){
 const mobileBtns = document.querySelector(".mobile_location");
 
 mobileBtns.addEventListener("click",function(){
-    window.open("http://hyeonzlu.dothome.co.kr/cjenm","cjenm","width=500,height=500");
+    let mobile = window.open("http://hyeonzlu.dothome.co.kr/cjenm","cjenm","width=500,height=500");
 });
