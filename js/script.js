@@ -105,3 +105,9 @@ window.addEventListener("scroll",function(){
         tabbtn[i].classList.add("on");
     });
 }
+
+const mobileBtns = document.querySelector(".mobile_location");
+
+mobileBtns.addEventListener("click",function(){
+    window.open("http://hyeonzlu.dothome.co.kr/cjenm","cjenm","width=500,height=500");
+});
