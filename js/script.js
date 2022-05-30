@@ -80,15 +80,7 @@ window.addEventListener("scroll",function(){
     move_btn[i].addEventListener("click",function(e){
       e.preventDefault();
 
-      if(i == move_btn.length-1){
-        scMove = main4Start.offsetTop;
-  
-      }
-      else{
-        scMove = sections[i].offsetTop;
-      }
-
- 
+      let scMove = sections[i].offsetTop;
          window.scrollTo({
           top:scMove,
           behavior:"smooth"

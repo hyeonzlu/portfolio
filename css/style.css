@@ -137,11 +137,11 @@ font-family: 'Nanum Pen Script', cursive;
   .main2 .intro_wrap .right_intro .ability_box .bar .gauge {position:absolute; left:0; top:0; height:100%; 
                                                                                           background:#F2AF5C; width: 0px;
                                                                                           animation-name: gaguge;
-                                                                                          animation-duration: 2s;
+                                                                                          animation-duration:6s;
                                                                                          animation-timing-function: linear;
                                                                                          animation-fill-mode: forwards }
 .main2 .intro_wrap .right_intro .ability_box .bar i { animation-name: gicon;
-                                                                                animation-duration: 2s;
+                                                                                animation-duration: 6s;
                                                                               animation-timing-function: linear;
                                                                               animation-fill-mode: forwards ;
                                                                               position:absolute; left:0; top:-15px; 
